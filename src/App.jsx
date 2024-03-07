@@ -13,7 +13,7 @@ function App() {
               <Link to ={`/login`}>Log In</Link>
             </li>
             <li>
-              <Link to ={`/contacts/1`}>Your Name</Link>
+            <Link to={`/user`}>Your Page</Link> 
             </li>
           </ul>
         </nav>

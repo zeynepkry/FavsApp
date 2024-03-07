@@ -5,7 +5,7 @@ import ErrorPage from "./errorpage";
 import './index.css'
 import LogIn from "./LogIn.jsx";
 import SignUp from "./SignUp.jsx";
-import User from "./contact.jsx";
+import User from "./user.jsx";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -25,7 +25,7 @@ const router = createBrowserRouter([
     element: <SignUp />,
   },
   {
-    path: "contacts/:contactId",
+    path: "/user", // Update the path to "/users/:userId"
     element: <User />,
   },
 ]);
